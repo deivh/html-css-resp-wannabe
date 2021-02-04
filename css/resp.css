@@ -1,28 +1,35 @@
 @media screen and (max-width: 420px){
+  body {
+    font-size: 1.5rem;
+  }
+
   .row {
     width: 100%;
     margin: 0;
   }
 
-  #lezioni .row > .left , #lezioni .row > .right , #steps .row > .left , #steps .row > .central , #steps .row > .right{
+  #lezioni .row > .left , #lezioni .row > .right , #steps .row > .left , #steps .row > .central , #steps .row > .right , #why .row > .first , #why .row > .second {
   width: 100%;
   float: none;
+  margin: 20px 0;
   }
+
+  #why .row > .third {
+    width: 100%;
+    float: none;
+  }
+
   .row div img {
-    width: 50%;
+    width: 60%;
     height: auto;
     padding: 20px;
   }
 
-  #why .row > .first , #why .row > .second , #why .row > .third {
-    margin-top: 0;
-    margin-bottom: 30px;
-  }
-
   #why .row img {
-    width: 30%;
+    width: 40%;
     height: auto;
   }
+
   #why h1 , #steps h1{
     padding: 30px;
   }
