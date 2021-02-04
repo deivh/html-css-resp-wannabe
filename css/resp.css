@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 @media screen and (max-width: 420px){
   body {
     font-size: 1.5rem;
@@ -5,18 +12,20 @@
 
   .row {
     width: 100%;
-    margin: 0;
   }
 
   #lezioni .row > .left , #lezioni .row > .right , #steps .row > .left , #steps .row > .central , #steps .row > .right , #why .row > .first , #why .row > .second {
   width: 100%;
   float: none;
   margin: 20px 0;
+  padding: 0 40px;
   }
 
   #why .row > .third {
     width: 100%;
     float: none;
+    margin: 20px 0;
+    padding: 0 40px;
   }
 
   .row div img {
@@ -30,7 +39,7 @@
     height: auto;
   }
 
-  #why h1 , #steps h1{
+  #why h1 , #steps h1 , #lezioni h1{
     padding: 30px;
   }
 }
